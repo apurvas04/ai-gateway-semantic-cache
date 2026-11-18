@@ -10,8 +10,8 @@ def make_scope_hash(model: str, system_prompt: str) -> str:
 
 class RedisVLBackend:
     def __init__(self, name="gateway_cache",
-                 redis_url="redis://localhost:6379",
-                 distance_threshold=0.15):
+         redis_url="redis://localhost:6379",
+         distance_threshold=0.10):
         self.cache = SemanticCache(
             name=name,
             redis_url=redis_url,

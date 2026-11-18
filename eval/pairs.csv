@@ -1,0 +1,41 @@
+prompt_a,prompt_b,should_match
+"What is the capital of France?","Which city is France's capital?",1
+"How do I reset my password?","I forgot my password, how can I change it?",1
+"What are your business hours?","When are you open?",1
+"How can I cancel my subscription?","I want to stop my subscription, what do I do?",1
+"What is the refund policy?","Can I get my money back? How do refunds work?",1
+"How do I track my order?","Where can I see the status of my order?",1
+"What is the last date to pay the semester fee?","When is the fee payment deadline?",1
+"How do I convert a string to an integer in Python?","Python: turning a string into an int",1
+"What is machine learning?","Can you explain what machine learning is?",1
+"How long does shipping take?","What is the delivery time for an order?",1
+"Do you ship internationally?","Can I order from outside the country?",1
+"How do I update my email address?","I need to change the email on my account.",1
+"What is the difference between a list and a tuple in Python?","How are Python lists different from tuples?",1
+"How do I contact customer support?","What's the way to reach your support team?",1
+"What payment methods do you accept?","Which ways of paying are supported?",1
+"Who wrote Pride and Prejudice?","Who is the author of Pride and Prejudice?",1
+"How do I enable two-factor authentication?","Steps to turn on 2FA for my account",1
+"What is the boiling point of water in Celsius?","At what temperature in Celsius does water boil?",1
+"How do I download my invoice?","Where can I get a copy of my invoice?",1
+"Is there a free trial?","Can I try the product for free before paying?",1
+"How do I cancel my order?","How do I track my order?",0
+"What is the capital of France?","What is the capital of Germany?",0
+"How do I reset my password?","How do I change my email address?",0
+"What are your business hours?","What are your holiday hours on December 25?",0
+"How can I cancel my subscription?","How can I pause my subscription?",0
+"What is the refund policy?","What is the return shipping address?",0
+"How do I convert a string to an integer in Python?","How do I convert an integer to a string in Python?",0
+"What is the difference between a list and a tuple in Python?","What is the difference between a list and a set in Python?",0
+"Do you ship internationally?","Do you offer same-day delivery?",0
+"How long does shipping take?","How much does shipping cost?",0
+"What is machine learning?","What is deep learning?",0
+"Who wrote Pride and Prejudice?","Who wrote Sense and Sensibility?",0
+"What is the boiling point of water in Celsius?","What is the freezing point of water in Celsius?",0
+"How do I enable two-factor authentication?","How do I disable two-factor authentication?",0
+"What payment methods do you accept?","How do I update my payment method?",0
+"How do I download my invoice?","How do I dispute an invoice charge?",0
+"Is there a free trial?","Is there a student discount?",0
+"What is the last date to pay the semester fee?","What is the last date to register for the semester?",0
+"How do I contact customer support?","How do I contact the sales team?",0
+"What is the capital of India?","What is the population of India?",0
