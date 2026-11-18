@@ -1,0 +1,5 @@
+.venv/
+gateway.db
+.env
+__pycache__/
+*.pyc
