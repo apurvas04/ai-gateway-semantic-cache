@@ -186,7 +186,14 @@ async def chat(payload: dict, authorization: str | None = Header(default=None)):
             return JSONResponse(body, headers={"X-Cache": "HIT", "X-Latency-Ms": str(_ms(start))})
         status = "MISS"
 
-    result = await call_llm(payload)
+    try:
+        result = await call_llm(payload)
+    except httpx.HTTPStatusError as e:
+        raise HTTPException(
+            502, f"Upstream error {e.response.status_code}: {e.response.text[:300]}"
+        )
+    except Exception as e:
+        raise HTTPException(502, f"Upstream call failed: {type(e).__name__}: {e}")
     if ctx["use_cache"]:
         content = result["choices"][0]["message"]["content"]
         if content:
