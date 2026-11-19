@@ -1,0 +1,61 @@
+prompt_a,prompt_b,should_match
+"How do I change my username?","What are the steps to update my username?",1
+"Where can I find my order history?","How do I see my past orders?",1
+"How do I delete my account?","I want to permanently close my account, how?",1
+"What is the difference between TCP and UDP?","How do TCP and UDP differ?",1
+"How do I install Python on Windows?","Steps to set up Python on a Windows PC",1
+"What time does the library close?","Until what hour is the library open?",1
+"How can I apply for a hostel room?","What is the process for getting hostel accommodation?",1
+"How do I check my exam results?","Where can I see my exam marks?",1
+"What is overfitting in machine learning?","Can you explain overfitting in ML?",1
+"How do I get a bank statement for the last six months?","Where can I download my statements for the past six months?",1
+"Is my data encrypted?","Do you encrypt the data I store with you?",1
+"How do I add a new team member?","What's the way to invite a colleague to my team?",1
+"Why is my payment failing?","My payment keeps getting declined, what could be wrong?",1
+"How do I export my data?","Can I download a copy of all my data?",1
+"What is a REST API?","Can you explain what a REST API is?",1
+"What is the application process for a scholarship?","How do I apply for a scholarship?",1
+"How do I merge two branches in Git?","What's the way to combine two Git branches?",1
+"When will my package arrive?","What's the expected delivery date for my parcel?",1
+"How do I change the language of the app?","Where do I switch the app's language?",1
+"What is the minimum attendance required to write exams?","How much attendance do I need to be allowed to take exams?",1
+"How do I turn off notifications?","I want to stop getting notifications, how?",1
+"What is the capital of Japan?","Which city is the capital of Japan?",1
+"How do I reverse a list in Python?","What's the way to reverse a list in Python?",1
+"How do I update my billing address?","Where can I change the address on my bill?",1
+"What does HTTP status 404 mean?","What is a 404 error?",1
+"Can I use the service on multiple devices?","Is it possible to log in from more than one device?",1
+"How do I report a bug?","Where do I submit a bug report?",1
+"What documents are needed for admission?","Which papers do I have to submit to get admitted?",1
+"How do I upgrade my plan?","What are the steps to move to a higher plan?",1
+"What is gradient descent?","Can you explain gradient descent?",1
+"How do I change my username?","How do I change my password?",0
+"Where can I find my order history?","Where can I find my order invoice?",0
+"How do I delete my account?","How do I deactivate my account temporarily?",0
+"What is the difference between TCP and UDP?","What is the difference between HTTP and HTTPS?",0
+"How do I install Python on Windows?","How do I install Python on Linux?",0
+"What time does the library open?","What time does the library close?",0
+"How can I apply for a hostel room?","How can I cancel my hostel room?",0
+"How do I check my exam results?","How do I apply for exam re-evaluation?",0
+"What is overfitting in machine learning?","What is underfitting in machine learning?",0
+"How do I download my bank statement?","How do I dispute a transaction on my bank statement?",0
+"Is my data encrypted?","Who can access my data?",0
+"How do I add a new team member?","How do I remove a team member?",0
+"Why is my payment failing?","Why is my refund delayed?",0
+"How do I export my data?","How do I import my data?",0
+"What is a REST API?","What is a GraphQL API?",0
+"What is the application deadline for the scholarship?","What is the eligibility criteria for the scholarship?",0
+"How do I merge two branches in Git?","How do I delete a branch in Git?",0
+"When will my package arrive?","Where do I return my package?",0
+"How do I change the language of the app?","How do I change the theme of the app?",0
+"What is the minimum attendance required to write exams?","What is the minimum passing mark required in exams?",0
+"How do I turn off notifications?","How do I turn on notifications?",0
+"What is the capital of Japan?","What is the currency of Japan?",0
+"How do I reverse a list in Python?","How do I sort a list in Python?",0
+"How do I update my billing address?","How do I update my shipping address?",0
+"What does HTTP status 404 mean?","What does HTTP status 500 mean?",0
+"Can I use the service on multiple devices?","Can I use the service offline?",0
+"How do I report a bug?","How do I request a new feature?",0
+"What documents are needed for admission?","What is the fee structure for admission?",0
+"How do I upgrade my plan?","How do I downgrade my plan?",0
+"What is gradient descent?","What is backpropagation?",0
